@@ -4,14 +4,25 @@
 <title>Siri</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <style>
+.item1 {
+  grid-area: myArea;
+}
+.item4{
+	grid-area:
 .grid-container
 {
 	display:grid;
-	grid-template-columns:auto auto;
+	grid-template-columns:myArea myArea;
 	align-content: center;
 	background-color: #2196F3;
 	grid-gap:2px;
 	height:400px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 body
 {
@@ -74,11 +85,15 @@ section
 </style>
 </head>
 <body>
+
+<div class="grid-container">
+<div class="item1">
 <header>
 	<h1>Small Introduction About Me</h1>
 </header>
-<div class="grid-container">
+</div>
 <div class="main">
+<div class="item2">
 <aside class="left">
 		
 		<ul>
@@ -92,6 +107,8 @@ section
 		</ul>
 		
 </aside>
+</div>
+<div class="item3">
 <section>
 
 <p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FULL NAME : Bheemireddy Gari Sireesha			AGE : 19</pre></p>
@@ -103,9 +120,11 @@ section
 </section>
 </div>
 </div>
+</div>
+<div class="item4">
 <footer>
 <h6 style="color:white;font-size:25px">I am learning skills for full stack developer.It's my short term goal and my long term goal is <big>&nbsp;" Machine Learning"</big></h6>
 </footer>
-
+</div>
 </body>
 </html>
