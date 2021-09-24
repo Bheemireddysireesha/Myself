@@ -4,17 +4,22 @@
 <title>Siri</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <style>
-
+.item1 {
+  grid-area: myArea;
+}
+.grid-container
+{
+	display:grid;
+	grid-template-columns:auto auto;
+	
+}
 body
 {
 	background-color:#777;
 	border:30px white;
 	border-color:green;
 	border-width:30px;
-	background-image:url('ind.jpeg');
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:105px;
+
 	
 
 }
@@ -67,14 +72,12 @@ section
 </head>
 <body>
 
-<div class="grid-container">
-<div class="item1">
+
+
 <header>
 	<h1>Small Introduction About Me</h1>
 </header>
-</div>
-<div class="main">
-<div class="item2">
+
 <aside class="left">
 		
 		<ul>
@@ -88,24 +91,27 @@ section
 		</ul>
 		
 </aside>
-</div>
-<div class="item3">
+
 <section>
-
-<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FULL NAME : Bheemireddy Gari Sireesha			AGE : 19</pre></p>
-<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE OF BIRTH : 03/07/2002				DEGREE : B.Tech</pre></p>
-<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL : r170770@rguktrkv.ac.in				PHONE : 9121692110</pre></p>
-<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREAM :       						Address : Punganur(Mondal) Andra pradhesh(AP)		</pre>
-</p>
-
+<div class="grid-container">
+	<div class="item1">
+		<img src="ind.jpeg" style="background-repeat:no-repeat;background-position:center;background-size:105px;>
+	</div>
+	<div class="item2">
+	<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FULL NAME : Bheemireddy Gari Sireesha			AGE : 19</pre></p>
+	<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE OF BIRTH : 03/07/2002				DEGREE : B.Tech</pre></p>
+	<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL : r170770@rguktrkv.ac.in				PHONE : 9121692110</pre></p>
+	<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREAM :       						Address : Punganur(Mondal) Andra pradhesh(AP)		</pre>
+	</p>
+	</div>
+ </div>
 </section>
-</div>
-</div>
-</div>
-<div class="item4">
+
+
+
 <footer>
 <h6 style="color:white;font-size:25px">I am learning skills for full stack developer.It's my short term goal and my long term goal is <big>&nbsp;" Machine Learning"</big></h6>
 </footer>
-</div>
+
 </body>
 </html>
