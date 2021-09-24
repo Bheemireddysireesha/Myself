@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -5,65 +6,93 @@
 <style>
 body
 {
-	background-color:white;
+	background-color:#777;
 	border:30px white;
 	border-color:green;
 	border-width:30px;
-
-}
-header
-{
-	background-color:rgba(255,99,71,0.6);
-	padding:20px;
-	text-align:center;
-	font-size:35px;
-	color:white;
+	background-image:url('/home/student/Desktop/Mini html proj by god grace/ind.jpeg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:105px;
 	
 
 }
-
-footer
+header,footer
 {
-	background-color:rgba(255,99,71,0.6);
-	padding:8px;
-	color:blue;
+	background-color:#8AC0DE;
+	padding:10px;
 	text-align:center;
-	font-size:30px;
+	font-size:20px;
+	color:white;
+	border-radius:20px;
+	
+
 }
-nav
+section
 {
-	background-color:#ccc;
-	}	
+	width:65%;
+	float:right;
+	height:150px;
+	background:white;
+	border:2px solid black;
+	border-radius:20px;
+
+}
+.left{
+	width:35%;
+	float:left;
+	height:200px;
+	border-right:2px solid #777;
+	border-radius:20px;
+	background:#777;
+}
+.main*
+{
+	border-radius:10px;
+} 
+.main	  
+{
+	margin:10px;
+}
+.main::after
+{
+	content:"";
+	clear:both;
+	display:table;
+}
+
 </style>
 </head>
 <body>
-</br>
 <header>
 	<h1>Small Introduction About Me</h1>
 </header>
+<div class="main">
+<aside class="left">
+
+	<ul>
+				
+				<li><a href="God grace.html"><img src="/home/student/Desktop/Mini html proj by god grace/index.jpeg" alt="HOME" align="left" style="width:50px">Home</li>
+				</br></br>
+				<li><a href="about.html"><img src="/home/student/Desktop/Mini html proj by god grace/logo.jpg" alt="about" align="left" style="width:50px;color:pink">about me</li>
+				</br></br>
+				<li><a href="resume.html"><img src="/home/student/Desktop/Mini html proj by god grace/images.png" alt="resume" align="left" 
+		style="width:50px;font-color:pink">resume</li></br></br>
+				<li><a href="contact.html"><img src="/home/student/Desktop/Mini html proj by god grace/contact.png" alt="HOME" align="left" style="width:50px">contact</li>
+		</ul>
+</aside>
 <section>
-<nav>
-	<div align="left" style="align:left;color:#BC544B">Here me</div>
-	<img src="ind.jpeg" alt="here me" style="background-position:right;width:;height: ">
-</nav>
-<article>
 
 <p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FULL NAME : Bheemireddy Gari Sireesha			AGE : 19</pre></p>
 <p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE OF BIRTH : 03/07/2002				DEGREE : B.Tech</pre></p>
 <p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL : r170770@rguktrkv.ac.in				PHONE : 9121692110</pre></p>
-<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREAM :       						Address : Punganur(Mondal) Andra pradhesh(AP)		</pre></p>
-</form>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp;<p style="color:#BC544B;font-size:25px;font-family:Arial">What I am doing....</p>
-<ul style="color:black;font-family:arial">
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic Python Programming</li>
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C and C++ programming</li>
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java programming</li>
-</ul>
-</article>
+<p align="center"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREAM :       						Address : Punganur(Mondal) Andra pradhesh(AP)		</pre>
+</p>
+
 </section>
+</div>
 <footer>
-<h6 style="color:#BC544B;font-size:20px">I am learning skills for full stack developer.It's my short term goal and my long term goal is <big>&nbsp;" Mechine Learning"</big></h6>
+<h6 style="color:white;font-size:25px">I am learning skills for full stack developer.It's my short term goal and my long term goal is <big>&nbsp;" Mechine Learning"</big></h6>
 </footer>
 
 </body>
